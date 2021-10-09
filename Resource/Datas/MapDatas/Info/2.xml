@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<kioskInfo>
+	<image url1="Images/in/3.jpg" url2="Images/out/2.jpg" />
+	<duureg>Сонгинохайрхан</duureg>
+	<ner>Драгон</ner>
+	<time1 caption="Да - Ба">9 - 22</time1>
+	<time2 caption="Бя - Ня">10 - 21</time2>
+	<outdoorInfo>СХД, 29-р хороо москвагийн гудамж, Монгол, Улаанбаатар хот</outdoorInfo>	
+	<indoorInfo> Драгон тѳвийн 1 давхарт 8 ширхэг тасалбар түгээх машин ажиллаж байна. </indoorInfo>
+</kioskInfo>

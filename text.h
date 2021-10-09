@@ -1,0 +1,56 @@
+﻿#pragma once
+
+#define TEXT_EMPTY               TEXT("")
+#define TEXT_MN                  TEXT("mn")
+#define TEXT_EN                  TEXT("en")
+
+#define KIOSKMAN_SPLASH          TEXT("KioskMan::SplashWindow")
+#define KIOSKMAN_CLIENT          TEXT("KioskMan::Client")
+#define KIOSKMAN_FOOTER          TEXT("Kioskman::Footer")
+#define KIOSKMAN_FOOTER_BTN      TEXT("Kioskman::Footer::Button")
+#define KIOSKMAN_HEADER          TEXT("KioskMan::Header")
+#define KIOSKMAN_HEADER_SESSION  TEXT("KioskMan::Header::Session")
+#define KIOSKMAN_TIMER           TEXT("KioskMan::Timer")
+#define KIOSKMAN_KEY             TEXT("KioskMan::Key")
+#define KIOSKMAN_KEYBOARD        TEXT("KioskMan::Keyboard")
+#define KIOSKMAN_MENUITEM        TEXT("KioskMan::MenuItem")
+#define KIOSKMAN_BARMENU         TEXT("KioskMan::BarMenu")
+#define KIOSKMAN_LOADER          TEXT("KioskMan::Loader")
+//#define KIOSKMAN_CLIENT
+//#define KIOSKMAN_CLIENT       
+
+#define TEXT_MENU_TRANSDEP       TEXT("transdep")
+#define TEXT_MENU_RAILWAY        TEXT("train")
+#define TEXT_MENU_FLIGHT         TEXT("flight")
+#define TEXT_MENU_TORGUULI       TEXT("torguuli")
+#define TEXT_MENU_UMONEY         TEXT("umoney")
+
+#define TEXT_OK_EN               TEXT("OK")
+#define TEXT_UPDATE_EN           TEXT("update")
+#define TEXT_ERROR_EN            TEXT("Error")
+#define TEXT_CONNECTINGSERVER_MN TEXT("Серверт холбогдож байна...")
+#define TEXT_CONNECTINGSERVER_EN TEXT("Establishing a connection to server...")
+#define TEXT_FAILED_EN           TEXT("Failed to retrieve ID, please contact an administrator!")
+#define TEXT_HOME_MN             TEXT("ЭХЛЭЛ")
+#define TEXT_BACK_MN             TEXT("БУЦАХ")
+#define TEXT_CONTINUE_MN         TEXT("ҮРГЭЛЖЛҮҮЛЭХ")
+#define TEXT_TRANSDEP01_MN       TEXT("Та зорчих чиглэл, явах огноо, зорчигч хүмүүсийн тоог сонгоно уу.")
+#define TEXT_MAPPER_MN           TEXT("Улаанбаатар хотод ажиллаж буй тасалбар түгээх машинуудын байршил харах")
+
+#define TEXT_FLASH_MARQUEE_MN    TEXT("Энэхүү Тасалбар түгээх машин нь Улаанбаатар хотын хэмжээнд нийт 22 байршилд тун удахгүй тавигдана. Зорчигч та өөрт ойрхон байрлах цэгээс тасалбараа худалдан аваарай.")
+
+#define TEXT_HIDDENEXITCLASS     TEXT("HiddenExitClass")
+#define TEXT_DIGIT_1             TEXT("1")
+#define TEXT_DIGIT_2             TEXT("2")
+#define TEXT_DIGIT_3             TEXT("3")
+#define TEXT_DIGIT_4             TEXT("4")
+#define TEXT_DIGIT_5             TEXT("5")
+#define TEXT_DIGIT_6             TEXT("6")
+#define TEXT_DIGIT_7             TEXT("7")
+#define TEXT_DIGIT_8             TEXT("8")
+#define TEXT_DIGIT_9             TEXT("9")
+
+#define TEXT_LOGO_TITLE         TEXT("Logo")
+#define TEXT_FLAG_TITLE         TEXT("Flag")
+#define TEXT_APPVIDEO           TEXT("AppVideo")
+#define TEXT_KIOSKLOCATION      TEXT("KioskLocation")

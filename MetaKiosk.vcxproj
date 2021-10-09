@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{15555E5D-86E3-44F4-A9A1-921B4521AE6D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MetaKiosk</RootNamespace>
+    <ProjectName>TicketMachine</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\KioskMan\$(Configuration)\</OutDir>
+    <IntDir>bin\KioskMan\$(Configuration)\</IntDir>
+    <TargetName>KioskMan</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\KioskMan\$(Configuration)\</OutDir>
+    <IntDir>bin\KioskMan\$(Configuration)\</IntDir>
+    <TargetName>KioskMan</TargetName>
+    <IncludePath>C:\work\upwork\peterson morris\new\KioskMan\[globalpay];$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;HAVE_CONFIG_H;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <AdditionalIncludeDirectories>[codesaur];[globalpay];</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;HAVE_CONFIG_H;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>[codesaur];[globalpay];</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Helper\Printer.h" />
+    <ClInclude Include="Helper\Server.h" />
+    <ClInclude Include="LowerThirdWnd.h" />
+    <ClInclude Include="FlashWnd.h" />
+    <ClInclude Include="ClientWnd.h" />
+    <ClInclude Include="Config.hpp" />
+    <ClInclude Include="Helper\Databank.h" />
+    <ClInclude Include="Helper\Raw.hpp" />
+    <ClInclude Include="Helper\XML.hpp" />
+    <ClInclude Include="Interface\Footer.h" />
+    <ClInclude Include="Interface\Header.h" />
+    <ClInclude Include="Interface\Keyboard.h" />
+    <ClInclude Include="Interface\Menu.h" />
+    <ClInclude Include="Interface\Message.h" />
+    <ClInclude Include="Interface\Popup.h" />
+    <ClInclude Include="Interface\Worker.h" />
+    <ClInclude Include="TicketMachine.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SplashWnd.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="text.h" />
+    <ClInclude Include="TouchWnd.h" />
+    <ClInclude Include="Transdep\Base.hpp" />
+    <ClInclude Include="Transdep\Compass.hpp" />
+    <ClInclude Include="Transdep\Control.h" />
+    <ClInclude Include="Transdep\Directions.h" />
+    <ClInclude Include="Transdep\Insurancies.h" />
+    <ClInclude Include="Transdep\Map.h" />
+    <ClInclude Include="Transdep\MapControl.h" />
+    <ClInclude Include="Transdep\Payment.h" />
+    <ClInclude Include="Transdep\Places.hpp" />
+    <ClInclude Include="Transdep\Route.h" />
+    <ClInclude Include="Transdep\Router.h" />
+    <ClInclude Include="Transdep\SeatMe.h" />
+    <ClInclude Include="Transdep\Selection.h" />
+    <ClInclude Include="Transdep\Station.h" />
+    <ClInclude Include="Transdep\Stop.h" />
+    <ClInclude Include="Transdep\Tariffs.h" />
+    <ClInclude Include="Transdep\Ticket.h" />
+    <ClInclude Include="Transdep\TimeTable.h" />
+    <ClInclude Include="Version.hpp" />
+    <ClInclude Include="[globalpay]\Barcode\Barcode.h" />
+    <ClInclude Include="[globalpay]\Barcode\QRcode.h" />
+    <ClInclude Include="[globalpay]\globalpay.hpp" />
+    <ClInclude Include="[globalpay]\Control\Button.h" />
+    <ClInclude Include="[globalpay]\Control\CheckBox.h" />
+    <ClInclude Include="[globalpay]\Control\ComboBox.h" />
+    <ClInclude Include="[globalpay]\Control\Edit.h" />
+    <ClInclude Include="[globalpay]\Control\Gif.h" />
+    <ClInclude Include="[globalpay]\Control\HoverStatic.h" />
+    <ClInclude Include="[globalpay]\Control\ListBox.h" />
+    <ClInclude Include="[globalpay]\Control\Panel.h" />
+    <ClInclude Include="[globalpay]\Control\PicturePanel.h" />
+    <ClInclude Include="[globalpay]\Control\Radio.h" />
+    <ClInclude Include="[globalpay]\Control\ShockwaveFlash.h" />
+    <ClInclude Include="[globalpay]\Control\Static.h" />
+    <ClInclude Include="[globalpay]\Control\SystemCtl.h" />
+    <ClInclude Include="[globalpay]\Dialog\BitmapDlg.h" />
+    <ClInclude Include="[globalpay]\Dialog\Dlg.h" />
+    <ClInclude Include="[globalpay]\Internet\Internet.h" />
+    <ClInclude Include="[globalpay]\System\ActiveX.h" />
+    <ClInclude Include="[globalpay]\System\CoObject.h" />
+    <ClInclude Include="[globalpay]\System\Debug.h" />
+    <ClInclude Include="[globalpay]\System\File.h" />
+    <ClInclude Include="[globalpay]\System\NotifyIcon.h" />
+    <ClInclude Include="[globalpay]\System\Serial.h" />
+    <ClInclude Include="[globalpay]\System\Thread.h" />
+    <ClInclude Include="[globalpay]\System\Tools.h" />
+    <ClInclude Include="[globalpay]\Translation\Translation.h" />
+    <ClInclude Include="[globalpay]\Types\Bitmap.h" />
+    <ClInclude Include="[globalpay]\Types\Coordinate.h" />
+    <ClInclude Include="[globalpay]\Types\Galig.hpp" />
+    <ClInclude Include="[globalpay]\Types\Region.h" />
+    <ClInclude Include="[globalpay]\Types\String.h" />
+    <ClInclude Include="[globalpay]\Window\BitmapWnd.h" />
+    <ClInclude Include="[globalpay]\Window\HoverBitmapWnd.h" />
+    <ClInclude Include="[globalpay]\Window\HoverLogic.h" />
+    <ClInclude Include="[globalpay]\Window\Msg.h" />
+    <ClInclude Include="[globalpay]\Window\Wnd.h" />
+    <ClInclude Include="[globalpay]\Window\WndBasic.h" />
+    <ClInclude Include="[globalpay]\Window\WndDef.h" />
+    <ClInclude Include="[globalpay]\Window\WndFunc.h" />
+    <ClInclude Include="[globalpay]\XML\XML.h" />
+    <ClInclude Include="[globalpay]\[vendor]\pugixml\pugiconfig.hpp" />
+    <ClInclude Include="[globalpay]\[vendor]\pugixml\pugixml.hpp" />
+    <ClInclude Include="[globalpay]\[vendor]\qrencode-3.4.4\bitstream.h" />
+    <ClInclude Include="[globalpay]\[vendor]\qrencode-3.4.4\config.h" />
+    <ClInclude Include="[globalpay]\[vendor]\qrencode-3.4.4\mask.h" />
+    <ClInclude Include="[globalpay]\[vendor]\qrencode-3.4.4\mmask.h" />
+    <ClInclude Include="[globalpay]\[vendor]\qrencode-3.4.4\mqrspec.h" />
+    <ClInclude Include="[globalpay]\[vendor]\qrencode-3.4.4\qrencode.h" />
+    <ClInclude Include="[globalpay]\[vendor]\qrencode-3.4.4\qrinput.h" />
+    <ClInclude Include="[globalpay]\[vendor]\qrencode-3.4.4\qrspec.h" />
+    <ClInclude Include="[globalpay]\[vendor]\qrencode-3.4.4\rscode.h" />
+    <ClInclude Include="[globalpay]\[vendor]\qrencode-3.4.4\split.h" />
+    <ClInclude Include="[globalpay]\[vendor]\SimpleJSON\JSON.h" />
+    <ClInclude Include="[globalpay]\[vendor]\SimpleJSON\JSONValue.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MetaKiosk.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resource\globalpay.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Helper\Printer.cpp" />
+    <ClCompile Include="Helper\Server.cpp" />
+    <ClCompile Include="LowerThirdWnd.cpp" />
+    <ClCompile Include="FlashWnd.cpp" />
+    <ClCompile Include="ClientWnd.cpp" />
+    <ClCompile Include="Entry.cpp" />
+    <ClCompile Include="Helper\Databank.cpp" />
+    <ClCompile Include="Interface\Footer.cpp" />
+    <ClCompile Include="Interface\Header.cpp" />
+    <ClCompile Include="Interface\Keyboard.cpp" />
+    <ClCompile Include="Interface\Menu.cpp" />
+    <ClCompile Include="Interface\Message.cpp" />
+    <ClCompile Include="Interface\Popup.cpp" />
+    <ClCompile Include="Interface\Worker.cpp" />
+    <ClCompile Include="SplashWnd.cpp" />
+    <ClCompile Include="TouchWnd.cpp" />
+    <ClCompile Include="Transdep\Control.cpp" />
+    <ClCompile Include="Transdep\Directions.cpp" />
+    <ClCompile Include="Transdep\Insurancies.cpp" />
+    <ClCompile Include="Transdep\Map.cpp" />
+    <ClCompile Include="Transdep\MapControl.cpp" />
+    <ClCompile Include="Transdep\Payment.cpp" />
+    <ClCompile Include="Transdep\Route.cpp" />
+    <ClCompile Include="Transdep\Router.cpp" />
+    <ClCompile Include="Transdep\SeatMe.cpp" />
+    <ClCompile Include="Transdep\Selection.cpp" />
+    <ClCompile Include="Transdep\Station.cpp" />
+    <ClCompile Include="Transdep\Stop.cpp" />
+    <ClCompile Include="Transdep\Tariffs.cpp" />
+    <ClCompile Include="Transdep\Ticket.cpp" />
+    <ClCompile Include="Transdep\TimeTable.cpp" />
+    <ClCompile Include="[globalpay]\Barcode\Barcode.cpp" />
+    <ClCompile Include="[globalpay]\Barcode\QRcode.cpp" />
+    <ClCompile Include="[globalpay]\Control\Button.cpp" />
+    <ClCompile Include="[globalpay]\Control\CheckBox.cpp" />
+    <ClCompile Include="[globalpay]\Control\ComboBox.cpp" />
+    <ClCompile Include="[globalpay]\Control\Edit.cpp" />
+    <ClCompile Include="[globalpay]\Control\Gif.cpp" />
+    <ClCompile Include="[globalpay]\Control\HoverStatic.cpp" />
+    <ClCompile Include="[globalpay]\Control\ListBox.cpp" />
+    <ClCompile Include="[globalpay]\Control\Panel.cpp" />
+    <ClCompile Include="[globalpay]\Control\PicturePanel.cpp" />
+    <ClCompile Include="[globalpay]\Control\Radio.cpp" />
+    <ClCompile Include="[globalpay]\Control\ShockwaveFlash.cpp" />
+    <ClCompile Include="[globalpay]\Control\Static.cpp" />
+    <ClCompile Include="[globalpay]\Control\SystemCtl.cpp" />
+    <ClCompile Include="[globalpay]\Dialog\BitmapDlg.cpp" />
+    <ClCompile Include="[globalpay]\Dialog\Dlg.cpp" />
+    <ClCompile Include="[globalpay]\Internet\Internet.cpp" />
+    <ClCompile Include="[globalpay]\System\ActiveX.cpp" />
+    <ClCompile Include="[globalpay]\System\CoObject.cpp" />
+    <ClCompile Include="[globalpay]\System\Debug.cpp" />
+    <ClCompile Include="[globalpay]\System\File.cpp" />
+    <ClCompile Include="[globalpay]\System\NotifyIcon.cpp" />
+    <ClCompile Include="[globalpay]\System\Serial.cpp" />
+    <ClCompile Include="[globalpay]\System\Thread.cpp" />
+    <ClCompile Include="[globalpay]\System\Tools.cpp" />
+    <ClCompile Include="[globalpay]\Translation\Translation.cpp" />
+    <ClCompile Include="[globalpay]\Types\Bitmap.cpp" />
+    <ClCompile Include="[globalpay]\Types\Coordinate.cpp" />
+    <ClCompile Include="[globalpay]\Types\Region.cpp" />
+    <ClCompile Include="[globalpay]\Types\String.cpp" />
+    <ClCompile Include="[globalpay]\Window\BitmapWnd.cpp" />
+    <ClCompile Include="[globalpay]\Window\HoverBitmapWnd.cpp" />
+    <ClCompile Include="[globalpay]\Window\HoverLogic.cpp" />
+    <ClCompile Include="[globalpay]\Window\Msg.cpp" />
+    <ClCompile Include="[globalpay]\Window\Wnd.cpp" />
+    <ClCompile Include="[globalpay]\Window\WndBasic.cpp" />
+    <ClCompile Include="[globalpay]\Window\WndDef.cpp" />
+    <ClCompile Include="[globalpay]\Window\WndFunc.cpp" />
+    <ClCompile Include="[globalpay]\XML\XML.cpp" />
+    <ClCompile Include="[globalpay]\[vendor]\pugixml\pugixml.cpp" />
+    <ClCompile Include="[globalpay]\[vendor]\qrencode-3.4.4\bitstream.c" />
+    <ClCompile Include="[globalpay]\[vendor]\qrencode-3.4.4\mask.c" />
+    <ClCompile Include="[globalpay]\[vendor]\qrencode-3.4.4\mmask.c" />
+    <ClCompile Include="[globalpay]\[vendor]\qrencode-3.4.4\mqrspec.c" />
+    <ClCompile Include="[globalpay]\[vendor]\qrencode-3.4.4\qrencode.c" />
+    <ClCompile Include="[globalpay]\[vendor]\qrencode-3.4.4\qrinput.c" />
+    <ClCompile Include="[globalpay]\[vendor]\qrencode-3.4.4\qrspec.c" />
+    <ClCompile Include="[globalpay]\[vendor]\qrencode-3.4.4\rscode.c" />
+    <ClCompile Include="[globalpay]\[vendor]\qrencode-3.4.4\split.c" />
+    <ClCompile Include="[globalpay]\[vendor]\SimpleJSON\JSON.cpp" />
+    <ClCompile Include="[globalpay]\[vendor]\SimpleJSON\JSONValue.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

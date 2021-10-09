@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<playerDatas>
+	<config videoIndex="0" PlayOneVideo="false" PlayShuffle="false" />
+	<videos>
+		<video url="gerege.mp4"/>
+		<video url="Videos/Mongolia Beautiful.mp4"/>
+	</videos>
+</playerDatas>

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Updater.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="..\[globalpay]\Window\WndFunc.cpp">
+      <Filter>[globalpay]\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[globalpay]\Window\WndDef.cpp">
+      <Filter>[globalpay]\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[globalpay]\Window\WndBasic.cpp">
+      <Filter>[globalpay]\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[globalpay]\Window\Wnd.cpp">
+      <Filter>[globalpay]\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[globalpay]\Window\Msg.cpp">
+      <Filter>[globalpay]\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[globalpay]\Window\BitmapWnd.cpp">
+      <Filter>[globalpay]\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[globalpay]\Types\Bitmap.cpp">
+      <Filter>[globalpay]\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[globalpay]\Types\Coordinate.cpp">
+      <Filter>[globalpay]\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[globalpay]\Types\Region.cpp">
+      <Filter>[globalpay]\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\[globalpay]\System\Tools.cpp">
+      <Filter>[globalpay]\System</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Updater.h" />
+    <ClInclude Include="resource.h">
+      <Filter>resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[globalpay]\Window\WndFunc.h">
+      <Filter>[globalpay]\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[globalpay]\Window\WndDef.h">
+      <Filter>[globalpay]\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[globalpay]\Window\WndBasic.h">
+      <Filter>[globalpay]\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[globalpay]\Window\Wnd.h">
+      <Filter>[globalpay]\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[globalpay]\Window\Msg.h">
+      <Filter>[globalpay]\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[globalpay]\Window\BitmapWnd.h">
+      <Filter>[globalpay]\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[globalpay]\Types\Bitmap.h">
+      <Filter>[globalpay]\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[globalpay]\Types\Coordinate.h">
+      <Filter>[globalpay]\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[globalpay]\Types\Region.h">
+      <Filter>[globalpay]\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[globalpay]\System\Tools.h">
+      <Filter>[globalpay]\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[globalpay]\globalpay.hpp">
+      <Filter>[globalpay]</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="resource">
+      <UniqueIdentifier>{d0d13e8e-c9ca-402e-a901-a02e704cd734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[globalpay]">
+      <UniqueIdentifier>{dcdbe141-33df-4585-8a99-7be5b9b17fe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[globalpay]\Window">
+      <UniqueIdentifier>{f6b6d41f-5437-4c68-ae89-18f6487ee729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[globalpay]\Types">
+      <UniqueIdentifier>{06e2b867-c58a-4ca7-9f63-37a953165b1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[globalpay]\System">
+      <UniqueIdentifier>{578ded78-6dfb-4a57-928e-c5b3645da898}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Updater.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resource\gerege.ico">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="res\background.bmp" />
+  </ItemGroup>
+</Project>

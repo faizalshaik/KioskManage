@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<markerL1Datas>
+	<urls url="Images/2.jpg"/>
+	<marker posX="800" posY="300" action="zoom" xmlUrl="Datas/MapDatas/L2/1.xml"/>
+	<marker posX="900" posY="100" action="info" xmlUrl="Datas/MapDatas/Info/1.xml"/>
+	<marker posX="500" posY="36" action="zoom" xmlUrl="Datas/MapDatas/L2/2.xml"/>
+	<marker posX="400" posY="160" action="zoom" xmlUrl="Datas/MapDatas/L2/3.xml"/>
+</markerL1Datas>

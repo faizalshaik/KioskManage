@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TicketMachine", "MetaKiosk.vcxproj", "{15555E5D-86E3-44F4-A9A1-921B4521AE6D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Updater", "Updater\Updater.vcxproj", "{1C92F970-2A24-48A2-9EBC-83C9DE793F8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15555E5D-86E3-44F4-A9A1-921B4521AE6D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{15555E5D-86E3-44F4-A9A1-921B4521AE6D}.Debug|Win32.Build.0 = Debug|Win32
+		{15555E5D-86E3-44F4-A9A1-921B4521AE6D}.Release|Win32.ActiveCfg = Release|Win32
+		{15555E5D-86E3-44F4-A9A1-921B4521AE6D}.Release|Win32.Build.0 = Release|Win32
+		{1C92F970-2A24-48A2-9EBC-83C9DE793F8C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1C92F970-2A24-48A2-9EBC-83C9DE793F8C}.Debug|Win32.Build.0 = Debug|Win32
+		{1C92F970-2A24-48A2-9EBC-83C9DE793F8C}.Release|Win32.ActiveCfg = Release|Win32
+		{1C92F970-2A24-48A2-9EBC-83C9DE793F8C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

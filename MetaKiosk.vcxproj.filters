@@ -1,0 +1,581 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Transdep">
+      <UniqueIdentifier>{a15b55eb-2232-4011-baf3-deba0aaf3087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{97611513-fab3-4c15-b1d1-b725029f9242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper">
+      <UniqueIdentifier>{55fdbec8-03d5-41e2-8b23-9f1833e51604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{37982b89-8e26-4c9f-b7c4-0b8ab7a59ec2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[globalpay-win32]">
+      <UniqueIdentifier>{f7684798-af25-42ee-8cda-d1c1ee2daf16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[globalpay-win32]\Window">
+      <UniqueIdentifier>{a69d44f7-b271-4987-b291-eba66159c0de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[globalpay-win32]\Control">
+      <UniqueIdentifier>{56fe092e-dd5f-4f98-ba5b-d8ceeb8c7bdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[globalpay-win32]\Dialog">
+      <UniqueIdentifier>{b2470b0b-024b-47cd-8c78-5ac9232ceeae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[globalpay-win32]\System">
+      <UniqueIdentifier>{edec6de4-6d28-4375-9acf-cfe2395fbad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[globalpay-win32]\Internet">
+      <UniqueIdentifier>{5b3001a1-6956-444a-8c25-3bd7b3278037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[globalpay-win32]\Types">
+      <UniqueIdentifier>{3bf244d3-aeba-4506-906c-2d5ea51dc542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[globalpay-win32]\Barcode">
+      <UniqueIdentifier>{b39b8f7c-f768-404c-b909-c2150d26bee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[globalpay-win32]\XML">
+      <UniqueIdentifier>{704dc4a3-2cad-49c3-9172-df03a8cee4f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[globalpay-win32]\Translation">
+      <UniqueIdentifier>{999d0373-e282-46b0-9e1b-2fbaf11aa014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[globalpay-win32]\- vendor">
+      <UniqueIdentifier>{6db6d1ef-2a3c-4422-9ba2-84d65715fbb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[globalpay-win32]\- vendor\pugixml">
+      <UniqueIdentifier>{476bcd4c-e652-443e-8ea8-371360d27ba9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[globalpay-win32]\- vendor\qrencode-3.4.4">
+      <UniqueIdentifier>{858a9037-12e0-4f76-9e98-0c701aa4b46d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[globalpay-win32]\- vendor\SimpleJSON">
+      <UniqueIdentifier>{7a0cf746-d91c-4892-9175-b840ce30bc5a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ClientWnd.h" />
+    <ClInclude Include="SplashWnd.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Helper\Databank.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Footer.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Header.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Keyboard.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Menu.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Message.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Worker.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Transdep\Control.h">
+      <Filter>Transdep</Filter>
+    </ClInclude>
+    <ClInclude Include="Transdep\Directions.h">
+      <Filter>Transdep</Filter>
+    </ClInclude>
+    <ClInclude Include="Transdep\Insurancies.h">
+      <Filter>Transdep</Filter>
+    </ClInclude>
+    <ClInclude Include="Transdep\Map.h">
+      <Filter>Transdep</Filter>
+    </ClInclude>
+    <ClInclude Include="Transdep\MapControl.h">
+      <Filter>Transdep</Filter>
+    </ClInclude>
+    <ClInclude Include="Transdep\Payment.h">
+      <Filter>Transdep</Filter>
+    </ClInclude>
+    <ClInclude Include="Transdep\Places.hpp">
+      <Filter>Transdep</Filter>
+    </ClInclude>
+    <ClInclude Include="Transdep\Route.h">
+      <Filter>Transdep</Filter>
+    </ClInclude>
+    <ClInclude Include="Transdep\Router.h">
+      <Filter>Transdep</Filter>
+    </ClInclude>
+    <ClInclude Include="Transdep\SeatMe.h">
+      <Filter>Transdep</Filter>
+    </ClInclude>
+    <ClInclude Include="Transdep\Station.h">
+      <Filter>Transdep</Filter>
+    </ClInclude>
+    <ClInclude Include="Transdep\Stop.h">
+      <Filter>Transdep</Filter>
+    </ClInclude>
+    <ClInclude Include="Transdep\Tariffs.h">
+      <Filter>Transdep</Filter>
+    </ClInclude>
+    <ClInclude Include="Transdep\Ticket.h">
+      <Filter>Transdep</Filter>
+    </ClInclude>
+    <ClInclude Include="Transdep\TimeTable.h">
+      <Filter>Transdep</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="TouchWnd.h" />
+    <ClInclude Include="Interface\Popup.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.hpp" />
+    <ClInclude Include="Version.hpp" />
+    <ClInclude Include="Helper\Raw.hpp">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\XML.hpp">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Transdep\Base.hpp">
+      <Filter>Transdep</Filter>
+    </ClInclude>
+    <ClInclude Include="Transdep\Compass.hpp">
+      <Filter>Transdep</Filter>
+    </ClInclude>
+    <ClInclude Include="Transdep\Selection.h">
+      <Filter>Transdep</Filter>
+    </ClInclude>
+    <ClInclude Include="text.h" />
+    <ClInclude Include="FlashWnd.h" />
+    <ClInclude Include="LowerThirdWnd.h" />
+    <ClInclude Include="Helper\Server.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\Printer.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="TicketMachine.h" />
+    <ClInclude Include="[globalpay]\globalpay.hpp">
+      <Filter>[globalpay-win32]</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\XML\XML.h">
+      <Filter>[globalpay-win32]\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\Window\BitmapWnd.h">
+      <Filter>[globalpay-win32]\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\Window\HoverBitmapWnd.h">
+      <Filter>[globalpay-win32]\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\Window\HoverLogic.h">
+      <Filter>[globalpay-win32]\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\Window\Msg.h">
+      <Filter>[globalpay-win32]\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\Window\Wnd.h">
+      <Filter>[globalpay-win32]\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\Window\WndBasic.h">
+      <Filter>[globalpay-win32]\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\Window\WndDef.h">
+      <Filter>[globalpay-win32]\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\Window\WndFunc.h">
+      <Filter>[globalpay-win32]\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\Types\Bitmap.h">
+      <Filter>[globalpay-win32]\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\Types\Coordinate.h">
+      <Filter>[globalpay-win32]\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\Types\Galig.hpp">
+      <Filter>[globalpay-win32]\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\Types\Region.h">
+      <Filter>[globalpay-win32]\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\Types\String.h">
+      <Filter>[globalpay-win32]\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\Translation\Translation.h">
+      <Filter>[globalpay-win32]\Translation</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\System\ActiveX.h">
+      <Filter>[globalpay-win32]\System</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\System\CoObject.h">
+      <Filter>[globalpay-win32]\System</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\System\Debug.h">
+      <Filter>[globalpay-win32]\System</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\System\File.h">
+      <Filter>[globalpay-win32]\System</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\System\NotifyIcon.h">
+      <Filter>[globalpay-win32]\System</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\System\Serial.h">
+      <Filter>[globalpay-win32]\System</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\System\Thread.h">
+      <Filter>[globalpay-win32]\System</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\System\Tools.h">
+      <Filter>[globalpay-win32]\System</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\Internet\Internet.h">
+      <Filter>[globalpay-win32]\Internet</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\Dialog\BitmapDlg.h">
+      <Filter>[globalpay-win32]\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\Dialog\Dlg.h">
+      <Filter>[globalpay-win32]\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\Control\Button.h">
+      <Filter>[globalpay-win32]\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\Control\CheckBox.h">
+      <Filter>[globalpay-win32]\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\Control\ComboBox.h">
+      <Filter>[globalpay-win32]\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\Control\Edit.h">
+      <Filter>[globalpay-win32]\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\Control\Gif.h">
+      <Filter>[globalpay-win32]\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\Control\HoverStatic.h">
+      <Filter>[globalpay-win32]\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\Control\ListBox.h">
+      <Filter>[globalpay-win32]\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\Control\Panel.h">
+      <Filter>[globalpay-win32]\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\Control\PicturePanel.h">
+      <Filter>[globalpay-win32]\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\Control\Radio.h">
+      <Filter>[globalpay-win32]\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\Control\ShockwaveFlash.h">
+      <Filter>[globalpay-win32]\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\Control\Static.h">
+      <Filter>[globalpay-win32]\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\Control\SystemCtl.h">
+      <Filter>[globalpay-win32]\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\Barcode\Barcode.h">
+      <Filter>[globalpay-win32]\Barcode</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\Barcode\QRcode.h">
+      <Filter>[globalpay-win32]\Barcode</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\[vendor]\pugixml\pugiconfig.hpp">
+      <Filter>[globalpay-win32]\- vendor\pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\[vendor]\pugixml\pugixml.hpp">
+      <Filter>[globalpay-win32]\- vendor\pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\[vendor]\qrencode-3.4.4\bitstream.h">
+      <Filter>[globalpay-win32]\- vendor\qrencode-3.4.4</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\[vendor]\qrencode-3.4.4\config.h">
+      <Filter>[globalpay-win32]\- vendor\qrencode-3.4.4</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\[vendor]\qrencode-3.4.4\mask.h">
+      <Filter>[globalpay-win32]\- vendor\qrencode-3.4.4</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\[vendor]\qrencode-3.4.4\mmask.h">
+      <Filter>[globalpay-win32]\- vendor\qrencode-3.4.4</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\[vendor]\qrencode-3.4.4\mqrspec.h">
+      <Filter>[globalpay-win32]\- vendor\qrencode-3.4.4</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\[vendor]\qrencode-3.4.4\qrencode.h">
+      <Filter>[globalpay-win32]\- vendor\qrencode-3.4.4</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\[vendor]\qrencode-3.4.4\qrinput.h">
+      <Filter>[globalpay-win32]\- vendor\qrencode-3.4.4</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\[vendor]\qrencode-3.4.4\qrspec.h">
+      <Filter>[globalpay-win32]\- vendor\qrencode-3.4.4</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\[vendor]\qrencode-3.4.4\rscode.h">
+      <Filter>[globalpay-win32]\- vendor\qrencode-3.4.4</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\[vendor]\qrencode-3.4.4\split.h">
+      <Filter>[globalpay-win32]\- vendor\qrencode-3.4.4</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\[vendor]\SimpleJSON\JSON.h">
+      <Filter>[globalpay-win32]\- vendor\SimpleJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="[globalpay]\[vendor]\SimpleJSON\JSONValue.h">
+      <Filter>[globalpay-win32]\- vendor\SimpleJSON</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ClientWnd.cpp" />
+    <ClCompile Include="Entry.cpp" />
+    <ClCompile Include="SplashWnd.cpp" />
+    <ClCompile Include="Helper\Databank.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Footer.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Header.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Keyboard.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Menu.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Message.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Worker.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Transdep\Control.cpp">
+      <Filter>Transdep</Filter>
+    </ClCompile>
+    <ClCompile Include="Transdep\Directions.cpp">
+      <Filter>Transdep</Filter>
+    </ClCompile>
+    <ClCompile Include="Transdep\Insurancies.cpp">
+      <Filter>Transdep</Filter>
+    </ClCompile>
+    <ClCompile Include="Transdep\Map.cpp">
+      <Filter>Transdep</Filter>
+    </ClCompile>
+    <ClCompile Include="Transdep\MapControl.cpp">
+      <Filter>Transdep</Filter>
+    </ClCompile>
+    <ClCompile Include="Transdep\Payment.cpp">
+      <Filter>Transdep</Filter>
+    </ClCompile>
+    <ClCompile Include="Transdep\Route.cpp">
+      <Filter>Transdep</Filter>
+    </ClCompile>
+    <ClCompile Include="Transdep\Router.cpp">
+      <Filter>Transdep</Filter>
+    </ClCompile>
+    <ClCompile Include="Transdep\SeatMe.cpp">
+      <Filter>Transdep</Filter>
+    </ClCompile>
+    <ClCompile Include="Transdep\Station.cpp">
+      <Filter>Transdep</Filter>
+    </ClCompile>
+    <ClCompile Include="Transdep\Stop.cpp">
+      <Filter>Transdep</Filter>
+    </ClCompile>
+    <ClCompile Include="Transdep\Tariffs.cpp">
+      <Filter>Transdep</Filter>
+    </ClCompile>
+    <ClCompile Include="Transdep\Ticket.cpp">
+      <Filter>Transdep</Filter>
+    </ClCompile>
+    <ClCompile Include="Transdep\TimeTable.cpp">
+      <Filter>Transdep</Filter>
+    </ClCompile>
+    <ClCompile Include="TouchWnd.cpp" />
+    <ClCompile Include="Interface\Popup.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Transdep\Selection.cpp">
+      <Filter>Transdep</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashWnd.cpp" />
+    <ClCompile Include="LowerThirdWnd.cpp" />
+    <ClCompile Include="Helper\Server.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\Printer.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\XML\XML.cpp">
+      <Filter>[globalpay-win32]\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\Window\BitmapWnd.cpp">
+      <Filter>[globalpay-win32]\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\Window\HoverBitmapWnd.cpp">
+      <Filter>[globalpay-win32]\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\Window\HoverLogic.cpp">
+      <Filter>[globalpay-win32]\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\Window\Msg.cpp">
+      <Filter>[globalpay-win32]\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\Window\Wnd.cpp">
+      <Filter>[globalpay-win32]\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\Window\WndBasic.cpp">
+      <Filter>[globalpay-win32]\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\Window\WndDef.cpp">
+      <Filter>[globalpay-win32]\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\Window\WndFunc.cpp">
+      <Filter>[globalpay-win32]\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\Types\Bitmap.cpp">
+      <Filter>[globalpay-win32]\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\Types\Coordinate.cpp">
+      <Filter>[globalpay-win32]\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\Types\Region.cpp">
+      <Filter>[globalpay-win32]\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\Types\String.cpp">
+      <Filter>[globalpay-win32]\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\Translation\Translation.cpp">
+      <Filter>[globalpay-win32]\Translation</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\System\ActiveX.cpp">
+      <Filter>[globalpay-win32]\System</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\System\CoObject.cpp">
+      <Filter>[globalpay-win32]\System</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\System\Debug.cpp">
+      <Filter>[globalpay-win32]\System</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\System\File.cpp">
+      <Filter>[globalpay-win32]\System</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\System\NotifyIcon.cpp">
+      <Filter>[globalpay-win32]\System</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\System\Serial.cpp">
+      <Filter>[globalpay-win32]\System</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\System\Thread.cpp">
+      <Filter>[globalpay-win32]\System</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\System\Tools.cpp">
+      <Filter>[globalpay-win32]\System</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\Internet\Internet.cpp">
+      <Filter>[globalpay-win32]\Internet</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\Dialog\BitmapDlg.cpp">
+      <Filter>[globalpay-win32]\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\Dialog\Dlg.cpp">
+      <Filter>[globalpay-win32]\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\Control\Button.cpp">
+      <Filter>[globalpay-win32]\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\Control\CheckBox.cpp">
+      <Filter>[globalpay-win32]\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\Control\ComboBox.cpp">
+      <Filter>[globalpay-win32]\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\Control\Edit.cpp">
+      <Filter>[globalpay-win32]\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\Control\Gif.cpp">
+      <Filter>[globalpay-win32]\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\Control\HoverStatic.cpp">
+      <Filter>[globalpay-win32]\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\Control\ListBox.cpp">
+      <Filter>[globalpay-win32]\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\Control\Panel.cpp">
+      <Filter>[globalpay-win32]\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\Control\PicturePanel.cpp">
+      <Filter>[globalpay-win32]\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\Control\Radio.cpp">
+      <Filter>[globalpay-win32]\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\Control\ShockwaveFlash.cpp">
+      <Filter>[globalpay-win32]\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\Control\Static.cpp">
+      <Filter>[globalpay-win32]\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\Control\SystemCtl.cpp">
+      <Filter>[globalpay-win32]\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\Barcode\Barcode.cpp">
+      <Filter>[globalpay-win32]\Barcode</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\Barcode\QRcode.cpp">
+      <Filter>[globalpay-win32]\Barcode</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\[vendor]\pugixml\pugixml.cpp">
+      <Filter>[globalpay-win32]\- vendor\pugixml</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\[vendor]\qrencode-3.4.4\bitstream.c">
+      <Filter>[globalpay-win32]\- vendor\qrencode-3.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\[vendor]\qrencode-3.4.4\mask.c">
+      <Filter>[globalpay-win32]\- vendor\qrencode-3.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\[vendor]\qrencode-3.4.4\mmask.c">
+      <Filter>[globalpay-win32]\- vendor\qrencode-3.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\[vendor]\qrencode-3.4.4\mqrspec.c">
+      <Filter>[globalpay-win32]\- vendor\qrencode-3.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\[vendor]\qrencode-3.4.4\qrencode.c">
+      <Filter>[globalpay-win32]\- vendor\qrencode-3.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\[vendor]\qrencode-3.4.4\qrinput.c">
+      <Filter>[globalpay-win32]\- vendor\qrencode-3.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\[vendor]\qrencode-3.4.4\qrspec.c">
+      <Filter>[globalpay-win32]\- vendor\qrencode-3.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\[vendor]\qrencode-3.4.4\rscode.c">
+      <Filter>[globalpay-win32]\- vendor\qrencode-3.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\[vendor]\qrencode-3.4.4\split.c">
+      <Filter>[globalpay-win32]\- vendor\qrencode-3.4.4</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\[vendor]\SimpleJSON\JSON.cpp">
+      <Filter>[globalpay-win32]\- vendor\SimpleJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="[globalpay]\[vendor]\SimpleJSON\JSONValue.cpp">
+      <Filter>[globalpay-win32]\- vendor\SimpleJSON</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MetaKiosk.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resource\globalpay.ico">
+      <Filter>Resource</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

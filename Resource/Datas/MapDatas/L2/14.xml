@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<markerL1Datas>
+	<mapImage url="Images/zoom/14.jpg"/>
+	<marker posX="781" posY="400" action="zoom"  xmlUrl="Datas/MapDatas/L2/14.xml"/>  
+</markerL1Datas>
